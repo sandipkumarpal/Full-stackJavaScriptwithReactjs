@@ -1,0 +1,44 @@
+{
+  "name": "Full-stackJavaScriptwithReactjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pm2:dev": "pm2 start lib/server.js --watch --interpreter babel-node",
+    "webpack": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandipkumarpal/Full-stackJavaScriptwithReactjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandipkumarpal/Full-stackJavaScriptwithReactjs/issues"
+  },
+  "homepage": "https://github.com/sandipkumarpal/Full-stackJavaScriptwithReactjs#readme",
+  "dependencies": {
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "pm2": "^2.9.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "webpack": "^3.10.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^4.15.0",
+    "eslint-plugin-react": "^7.5.1"
+  }
+}
